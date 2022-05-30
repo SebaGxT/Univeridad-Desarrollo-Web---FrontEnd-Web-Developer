@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form method="GET">
+        <label for="nombre">Nombre:</label><br/>
+        <input type="text" id="nombre" name="nombre" placeholder="Estribe tu Nombre" required="true"/><br/>
+        <label for="apellido">Apellido:</label><br/>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido" required="true"/><br/>
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email" placeholder="Escribe tu email" required="true"/><br/>
+        <label for="edad">Edad:</label><br/>
+        <input type="number" id="edad" name="edad" placeholder="Escribe tu edad"/><br/>
+        <label>Genero:</label><br/>
+        <input type="radio" id="femenino" name="genero" value="femenino"/>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino"/>
+        <label for="masculino">Masculino</label><br/>
+        <label>Música favorita</label><br/>
+        <input type="checkbox" id="clasica" name="musica" value="clasica"/>
+        <label for="clasica">Clasica</label><br/>
+        <input type="checkbox" id="rock" name="musica" value="rock"/>
+        <label for="rock">Rock</label><br/>
+        <input type="checkbox" id="rap" name="musica" value="rap"/>
+        <label for="rap">Rap</label><br/>
+        <input type="checkbox" id="cumbia" name="musica" value="cumbia"/>
+        <label for="cumbia">Cumbia</label><br/>
+        <input type="checkbox" id="reggeaton" name="musica" value="reggeaton"/>
+        <label for="reggeaton">Reggeaton</label><br/><br/>
+        <label for="autos">Marca de auto favorita</label><br/>
+        <select id="autos" name="autos" multiple="true"><!--Atributo multiple sirve para admitir la seleccion de muchas opciones-->
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="audi" selected="true">Audi</option><!--atributo selected sirve para elegir una opcion seleccionada por default en caso de no ser la primera de la lista-->
+        </select><br/><br/>
+        <label for="comentario">Ingrese su comentario: </label><br/>
+        <textarea id="comentario" name="comentario" rows="2" cols="30" placeholder="Ingrese su comentario"></textarea>
+        <!--
+             Al ser un area de comentario que admite 
+            cadenas de texto se puede configurar filas y columnas con los atributos rows y cols es el tamaño con el que se previsualiza, sin embargo permite adaptar 
+            el tamaño de forma manual
+        -->
+        <br/><br/>
+        <input type="submit" value="Enviar" id="boton1"/>
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
+    </form>
+</body>
+</html>

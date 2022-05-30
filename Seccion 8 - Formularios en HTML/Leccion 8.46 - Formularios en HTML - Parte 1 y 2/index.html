@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form>
+        <label for="nombre">Nombre:</label><br/><!--Atributo for sirve para seleccionar el campo desde el label y hace referencia al mismo-->
+        <input type="text" id="nombre" name="nombre" placeholder="Estribe tu Nombre"/><br/> <!--Atributo name sirve como parametro para enviar en la url el dato al servidor-->
+        <label for="apellido">Apellido:</label><br/>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido"/><br/><br/> <!--Atributo value estable un valor por defecto--> 
+        <!--Atributo Placeholder mensaje en el campo por defecto no es un valor es un mensaje de fondo en campo vacio-->
+        <input type="submit" value="Enviar" id="boton1"/>
+    </form>
+</body>
+</html>

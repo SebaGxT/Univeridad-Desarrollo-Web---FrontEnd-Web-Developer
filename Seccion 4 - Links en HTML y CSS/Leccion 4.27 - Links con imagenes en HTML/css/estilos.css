@@ -1,0 +1,29 @@
+h1{
+    color: #a46fe9;
+    text-align: center;
+}
+
+a:link{
+    color: #b11b9d;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #5226c9;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #4d1e99;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #e22f18;
+}
+
+img{
+    width: 150px;
+    height: 74px;
+    
+}

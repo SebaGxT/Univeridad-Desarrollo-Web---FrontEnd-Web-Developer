@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    overflow: auto;
+    /*
+    overflow
+    overflow-x
+    overflow-y
+
+    Visible es la propiedad por default
+    hidden oculto
+    scroll se agrega barra para ver el contenido completo - muestra las barras de scroll vertical y horizontal aunque no sean necesarias
+    auto se agrega la barra de scroll en caso de ser necesario y que el contenido no tenga limitantes
+    */
+}

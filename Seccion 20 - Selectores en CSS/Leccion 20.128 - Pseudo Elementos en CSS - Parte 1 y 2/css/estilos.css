@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+    text-align: center;
+}
+div.contenedor p::selection{
+    color: red;
+    background-color: yellow;
+    /*
+    este pseudo elemento permite realizar modificaciones al seleccionar texto
+    en este caso pinta de colo rojo con fondo amarillo al texto seleccionado
+    solo para parrafos dentro de div contenedor
+    */
+}
+div.contenedor p::first-line{
+    font-variant: small-caps;
+    color: red;
+    /*
+    solo para la primer linea de cada elemento
+    */
+}
+div.contenedor p::first-letter{
+    font-size: 1.5em;
+}
+div.contenedor p::before{
+    content: "- ";
+    /*agrega las propiedades antes del elemento de la clase en este caso los parrafos dentro del div*/
+}
+div.contenedor p::after{
+    content: " -";
+    /*content: url(); con esto se podria agregar una imagen*/
+    /*agrega las propiedades despues del elemento de la clase en este caso los parrafos dentro del div*/
+}

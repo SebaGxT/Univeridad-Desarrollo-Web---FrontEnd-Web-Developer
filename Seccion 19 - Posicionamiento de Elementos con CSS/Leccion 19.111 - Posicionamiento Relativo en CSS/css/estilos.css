@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    /*
+    cambia su posicion de acuerdo al lugar natural donde deberia estar el elemento colocado
+    su posicion se modifica con atributos top right bottom left
+    reserva su espacio natural y ningun otro elemento puede ocuparlo
+    */
+}

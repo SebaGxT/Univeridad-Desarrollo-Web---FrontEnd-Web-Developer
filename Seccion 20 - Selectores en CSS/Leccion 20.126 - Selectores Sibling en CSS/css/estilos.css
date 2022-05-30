@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+}
+div.contenedor.descendiente p{  
+ background-color: #fdffb6;
+}
+div.contenedor.hijo > p{
+    background-color: #ffc6ff;
+}
+div.contenedor.adyacente + p{
+    /*
+    esta clase afecta a los elementos que este directamente despues del elemento con la clase
+    en este caso afecta al parrafo que esta despues del cierre del div y solamente a este elemento afecta
+    ambos deben tener el mismo padre en este caso el body
+    */
+    background-color: #caffbf;
+}
+div.contenedor.hermano ~ p{
+    /*
+    esta clase afecta a todos los elementos en este caso parrafo que se encuentren al mismo nivel del div con la clase
+    no dentro del div si no al mismo nivel
+    */
+    background-color: #9bf6ff;
+}

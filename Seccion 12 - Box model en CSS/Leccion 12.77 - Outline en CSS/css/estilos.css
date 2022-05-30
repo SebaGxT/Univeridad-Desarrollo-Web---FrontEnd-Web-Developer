@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div{
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: 20px;
+    background-color: #f1faee;
+    width: 300px;
+    outline: 10px solid #a8dadc; /*No suma contenido en px si no que se pone encima del margen y esta fuera del elemento,
+     de acuerdo al tamaño puede superponerse a otros elementos y taparlos
+     Se puede utilizar todos los estilos de borde para mostrar outline
+     */
+}

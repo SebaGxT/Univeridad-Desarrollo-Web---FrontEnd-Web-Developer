@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    max-width: 50%;
+    /*width: 50%;*/
+    /*se ajusta el elemento div de acuerdo al tamaño de la pantalla con el porcentaje
+    se puede usar un efecto similar con la propiedad max-width estableciendo un valor maximo ya que para pantallas muy pequeñas se ajusta al tamaño
+    */
+    border: 3px solid firebrick;
+    margin: auto;/*Al colocar este valor el espacio del lado izquierdo y derecho se vuelven el mismo centrando el elemento*/
+}

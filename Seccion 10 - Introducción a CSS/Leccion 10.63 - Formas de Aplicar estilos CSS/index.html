@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+    <link href="css/estilos.css" rel="stylesheet"/>
+    <!--
+
+        archivo externo
+        
+        <link href="css/estilos.css" rel="stylesheet"/>
+
+        en documento HTML
+
+        <style>
+            h1{
+                color: red;
+                text-align: right;
+            }
+        </style>
+
+        en elemento HTML
+
+        <h1 style="color: blue; text-align: center; font-size: 100px;">Universidad CSS</h1>
+
+        los estilos definidos en los elementos html son los que tienen mayor prioridad seguidos de los definidos en el documento html con etiqueta <style> y luego los definidos en archivos externos
+        los estilos en el documento con etiqueta <style> tienen mayor prioridad que el archivo externo siempre y cuando este definido luego del <link href="" rel=""/> Si se define el link luego de la etiqueta <style> el archivo tiene mayor prioridad
+        
+        En caso de que el navegador agregue estilos estos van a estar como ultima prioridad
+    -->
+    <style>
+        h1{
+            color: red;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Universidad CSS</h1>
+</body>
+</html>

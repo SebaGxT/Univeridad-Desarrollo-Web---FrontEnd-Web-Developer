@@ -1,0 +1,15 @@
+body{
+    color: cornsilk;
+    /*
+    background-color: dodgerblue;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    */
+    background: dodgerblue url(../img/fondo.png) no-repeat right top;/*la unica propiedad que no admite y hay que poner por separado es background-attachment*/
+    background-attachment: fixed;/*Efecto por default scroll*/
+}
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}

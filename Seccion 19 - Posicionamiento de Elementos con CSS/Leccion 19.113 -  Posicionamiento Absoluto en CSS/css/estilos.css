@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+/*div{
+    border: 3px solid firebrick;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    
+    toma la posicion absoluta de acuerdo al elemento padre que contiene el elemento con la posicion absoluta
+
+    en este caso el div toma la posicion absoluta de top 0 y right 0 del elemento body
+
+    
+}*/
+div.absoluto{
+    border: 3px solid firebrick;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+    /*
+    Esto solo funciona si su elemento padre no es de tipo estatic
+
+    puede ser cualquier atributo menos static
+
+    */
+
+}
+div.relativo{
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+}

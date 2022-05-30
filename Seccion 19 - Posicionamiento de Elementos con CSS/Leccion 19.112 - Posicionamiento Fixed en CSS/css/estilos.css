@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    border: 3px solid firebrick;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /*
+    con el atributo fixed el elemento se va a colocar de manera relativa de acuerdo al viewport es la pantalla que tenemos disponible para nuestra pagina
+    */
+}

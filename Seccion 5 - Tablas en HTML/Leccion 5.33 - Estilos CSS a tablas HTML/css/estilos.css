@@ -1,0 +1,37 @@
+table{
+    width: 100%;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*border-spacing: 5px;*//*separa los elementos no es compatible con el colapso de bordes*/
+    padding: 5px;
+}
+caption{
+    color: #e63946;
+    font-family: 'Trocchi',serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+th{
+    color: #f1faee;
+    background-color: #1d3557;
+}
+/*
+even: pares
+odd: impares
+*/
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
+/*
+th{
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+*/

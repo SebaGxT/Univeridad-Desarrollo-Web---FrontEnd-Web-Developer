@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form method="POST">
+    <!--
+        
+        Atributo method por default se utiliza el metodo get
+
+        Se puede establecer el metodo post
+
+        Metodo Get: envia el mensaje a traves del url del navegador al servidor
+
+        Metodo Post: envia el mensaje en el cuerpo del mensaje que se envia al servidor
+    
+    -->
+        <label for="nombre">Nombre:</label><br/>
+        <input type="text" id="nombre" name="nombre" placeholder="Estribe tu Nombre" required="true"/><br/>
+        <label for="apellido">Apellido:</label><br/>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido" required="true"/><br/><br/>
+        <label for="pass">Password:</label><br/>
+        <input type="password" id="pass" name="Password" placeholder="Escribe tu Contraseña" required="true"/><br/><br/>
+        <input type="submit" value="Enviar" id="boton1"/>
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
+    </form>
+</body>
+</html>

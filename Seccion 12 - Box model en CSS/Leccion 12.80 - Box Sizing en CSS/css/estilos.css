@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div{
+    /*padding: 10px;*/
+    /*padding: 10px 5px;*/
+    /*padding: 10px 5px 15px;*/
+    padding: 10px 5px 15px 3px;
+    border: 0 solid #457b9d;
+    margin: 0;
+    background-color: #f1faee;
+    width: 300px;
+    box-sizing: border-box; /*Solo incluye el padding y el border respetando el maximo ancho y alto establecido en este caso 300px en width
+    por lo tanto el elemento div es de 300px con padding y border incluido
+    */
+}

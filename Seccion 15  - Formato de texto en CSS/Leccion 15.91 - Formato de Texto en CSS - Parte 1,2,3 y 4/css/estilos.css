@@ -1,0 +1,26 @@
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da; /* x y blur color*/
+    letter-spacing: 3px; /*Separa caracteres individuales*/
+    word-spacing: 10px;/*Separa las palabras*/
+    text-decoration: overline underline;
+}
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+.texto{
+    text-align: justify;
+    /*direction: rtl;*/ /*Por default la direccion del texto esta con el atributo ltr (Left To Right) pero se puede colocar el texto rtl (Right To Left)*/
+    text-decoration: none; /*underline en general solo se utiliza para links*/
+    text-indent: 30px;
+    line-height: 1.5; /*No se especifica tipo de valor se toma de manera proporcional de acuerdo al tipo de fuente*/
+    white-space: normal; /*Normal se auto adjusta al tamaño - Nowrap evita que se envuelva y no realiza saltos de linea, en este ejemplo el texto se sale del color del div*/
+    text-shadow: 1px 1px 2px #ced4da;
+}

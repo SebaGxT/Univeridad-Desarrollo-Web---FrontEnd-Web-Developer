@@ -1,0 +1,14 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*border-spacing: 5px;*//*separa los elementos no es compatible con el colapso de bordes*/
+    padding: 5px;
+}
+/*
+th{
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+*/

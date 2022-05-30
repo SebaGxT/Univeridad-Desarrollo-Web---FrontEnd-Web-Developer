@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad HTML</title>
+    <!--
+    <style>
+        h1{
+            color:crimson;
+        }
+        p{
+            color:white;
+            background-color:crimson;
+        }
+    </style>
+    -->
+    <!--
+
+        Los estilos se aplican en cascada desde un elemento padre hasta un elemento
+        hijo
+
+        por ejemplo el background de body se aplica en los parrafos menos en el h1 porque tiene su propio estilo
+
+        otra cosa es que un estilo aplicado a nivel de elemento html sobreescribe al que aplica a nivel de
+        la pagina html (etiqueta <style></style>) y este sobre escribe al definido en una hoja de estilo en otro archivo
+
+    -->
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <style>
+        h1{
+            color:lightcoral
+        }
+    </style>
+</head>
+<body style="background-color:honeydew">
+    <h1 style="background-color:lavender;color:lightslategray">Universidad HTML</h1>
+    <p>Bienvenido a CSS</p>
+    <p>Saludos!</p>
+</body>
+</html>

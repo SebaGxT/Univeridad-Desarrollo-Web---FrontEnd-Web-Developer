@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div{
+    padding: 10px 5px 15px 3px;
+    border: 1px solid #457b9d;
+    margin-left: 100px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+p.interno{
+    margin-left: inherit;
+    /*
+
+    inherit
+    
+    hereda la propiedad del elemento padre en este caso div con un margin-left de 100px
+
+    esta clase solo se puede aplicar a parrafos
+    */
+}

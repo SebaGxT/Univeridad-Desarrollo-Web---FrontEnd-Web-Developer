@@ -1,0 +1,4 @@
+h1{
+    color: aqua !important;/*atributo important toma prioridad con respecto al estilo que pueda estar definido en la pagina html con estiquetas <style></style>*/
+
+}

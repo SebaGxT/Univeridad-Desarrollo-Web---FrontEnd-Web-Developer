@@ -1,0 +1,25 @@
+h1,div,p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    display: block;
+}
+h1{
+    display: none; /*Con la Propiedad none el elemento oculto no ocupa el espacio en el sitio web*/
+}
+p{
+    visibility: hidden; /*Con la Propiedad visibility:hidden el elemento oculto sigue ocupando el espacio en el sitio web*/
+
+    /*Con JavaScript se van a poder manejar estos eventos de ocultar y mostrar los elementos del sitio web*/
+}
+span{
+    display: inline;
+    border: 1px solid blue;
+}
+a{
+    display: block;
+}
+li{
+    display: inline;
+}

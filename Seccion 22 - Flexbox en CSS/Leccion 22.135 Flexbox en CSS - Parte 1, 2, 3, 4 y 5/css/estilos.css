@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+div.contenedor{
+    display: flex;
+    background-color: #560bad;
+    height: 300px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    /* align-content: center; */
+   /*
+   flex-direction
+    
+    column se agregan de arriba hacia abajo ocupando todo el ancho
+    column-reverse se agregar del ultimo al primero de arriba hacia abajo
+    row valor por default se cargan hacia la izquierda
+    row-reverse se cargan hacia la derecha siendo el ultimo valor el primero en mostrarse
+    
+    flex-wrap
+    
+    nowrap valor por default no envuelve los elementos
+    wrap envuelve los elementos al hacer mas pequeña la ventana se van ajustando a otras lineas
+
+    flex-flow
+
+    indicar valores de flex-direction y flex-wrap en un solo atributo
+
+    justify-content
+
+    flex-start valor por default carga el contenido a la izquierda
+    center carga el contenido al centro
+    flex-end carga el contenido a la derecha
+    space-between espacio entre los  elementos
+    space-around espacio en el lado izquierdo y derecho en cada elemento
+    space-evenly deja el mismo espacio de cada elemento del lado izquierdo y derecho
+
+    align-items
+
+    alinea los elementos de manera horizontal
+
+    stretch valor por default estira los elementos
+    baseline solo se visualiza con elementos de distintos tamaños - toma de referencia un punto y desde ahi crecen los elementos
+    flex-start
+    center
+    flex-end
+
+    align-content
+
+    alinea los elementos de manera vertical
+
+    flex-start
+    center
+    flex-end
+    baseline
+    stretch
+    space-around
+    space-between
+
+    */
+}
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}

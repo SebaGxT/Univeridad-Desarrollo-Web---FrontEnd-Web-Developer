@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div{
+    padding: 10px 5px 15px 3px;
+    border: 1px solid #457b9d;
+    margin: 0;
+    background-color: #f1faee;
+    max-width: 100%;
+    /*max-width: 300px;*/
+    /*
+    con las propiedades de max-width y max-height el elemento html se va ajustando de acuerdo al tamaño de la pantalla evitando que aparesca un scroll solamente hasta que
+    sea demasiado pequeño
+    */
+    box-sizing: border-box;
+}
